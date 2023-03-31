@@ -3,9 +3,56 @@
 }
 html,
 body {
-  background-color: rgb(230, 96, 96);
-  height: 800px;
-  width: 800px;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   margin: 0px;
   padding: 0px;
+}
+
+.encabezado {
+  border: solid 2px black;
+  height: 30%;
+}
+
+.menu {
+  border: solid 2px red;
+  height: 20%;
+}
+
+.descripcion {
+  border: solid 2px green;
+  height: 20%;
+}
+
+.presentacion {
+  border: solid 2px rgb(44, 6, 180);
+  height: 50%;
+}
+
+.beneficios {
+  border: solid 2px rgb(92, 3, 3);
+  height: 30%;
+}
+
+.galeria {
+  border: solid 2px grey;
+  height: 60%;
+}
+
+.contador {
+  background: rgb(31, 29, 29);
+  height: 20%;
+}
+
+.sustentable {
+  border: solid 2px yellow;
+  height: 30%;
+}
+
+.contacto {
+  background: black;
+  height: 20%;
 }
