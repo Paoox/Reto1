@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: white;
+  height: 800px;
+  width: 800px;
+  margin: 0px;
+  padding: 0px;
+}
