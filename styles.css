@@ -1,13 +1,307 @@
 * {
   box-sizing: border-box;
+  font-size: 14px;
 }
 
 html,
 body {
-  background-color: rgb(189, 179, 179);
-  font-size: 16px;
+  background-color: rgb(212, 208, 208);
+  padding: 0px 20px;
 }
 
-section {
-  border: solid 2px black;
-}/*# sourceMappingURL=styles.css.map */
+img {
+  filter: grayscale(100%);
+}
+.encabezado {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-left: 120px;
+}
+
+.usuario {
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 120px;
+}
+
+.Imagen {
+  background-image: ("/assets/edificios.jpg");
+  display: flex;
+  vertical-align: middle;
+}
+
+.Imagen div {
+  position: absolute;
+  height: 160px;
+  width: 400px;
+  text-align: center;
+  left: 35%;
+  top: 13%;
+}
+.menu {
+  display: flex;
+}
+
+.cuadro-gris,
+.cuadro-rojo,
+.cuadro-azul {
+  display: flex;
+  height: 250px;
+  flex: 1 1 50%;
+  padding-top: 80px;
+  padding-left: 5px;
+}
+
+.cuadro-gris {
+  background-color: rgb(80, 79, 79);
+}
+.cuadro-rojo {
+  background-color: red;
+}
+.cuadro-azul {
+  background-color: rgb(71, 71, 104);
+}
+
+.descripcion {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 200px;
+}
+
+.titulo {
+  width: 800px;
+}
+
+.subtitulo {
+  flex: 1 1 20%;
+}
+
+.redaccion {
+  flex: 2 1 50%;
+}
+
+.presentacion {
+  background-color: gray;
+  display: flex;
+  height: 500px;
+  padding: 30px 200px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.presentacion div {
+  display: flex;
+  flex-direction: column;
+}
+
+.empresaria,
+.caja {
+  gap: 3px;
+}
+
+.empresaria div {
+  background-color: rgb(253, 9, 9);
+  height: 160px;
+  padding-left: 4px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.redaccion-img {
+  width: 280px;
+  height: 443px;
+  background-color: rgb(252, 253, 253);
+  padding-top: 150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.beneficios {
+  background-color: red;
+  display: flex;
+  padding: 40px 200px;
+  height: 500px;
+}
+
+.benefits {
+  display: flex;
+  flex: 1 1 50%;
+}
+.text-icons,
+.hipster {
+  background-color: white;
+  display: flex;
+  flex: 1 1 50%;
+  flex-direction: column;
+}
+
+.hipster {
+  padding-left: 125px;
+}
+
+.text-icons div {
+  display: flex;
+  flex: 1 1 50%;
+  align-items: center;
+  padding-left: 50px;
+  justify-content: space-between;
+}
+.herramientas div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-bottom: 11px;
+}
+
+.conectividad div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-bottom: 11px;
+}
+
+.portafolio div {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-bottom: 11px;
+}
+
+.galeria {
+  background-color: white;
+  height: 900px;
+  padding: 90px 250px;
+}
+
+.fotos {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 700px;
+  gap: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fotos img {
+  filter: none;
+  width: 233px;
+  height: 158px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fotos img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.08);
+  transition: 0.6s ease-out;
+  filter: grayscale(0.6);
+}
+
+.flecha {
+  padding-top: 10px;
+  height: 75px;
+  text-align: center;
+}
+.comunidad {
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  height: 40px;
+}
+
+.contador {
+  background-color: white;
+  display: flex;
+  flex: 1 1 50%;
+  padding-left: 50px;
+  padding-top: 10px;
+  gap: 50px;
+  height: 70px;
+}
+
+.contador div {
+  padding-left: 8%;
+  text-align: center;
+}
+
+.sustentable {
+  background-color: rgb(93, 89, 110);
+  height: 220px;
+  display: flex;
+  flex: 1 1 50%;
+  padding: 40px 280px;
+  gap: 50px;
+}
+
+.sustentable div {
+  width: 200px;
+}
+
+.sustentable img {
+  filter: none;
+}
+
+.amigable {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  flex: 1 1 50%;
+  padding: 40px 280px;
+  gap: 70px;
+  text-align: center;
+}
+
+.amigable div {
+  width: 100%;
+}
+
+.pet-frendly {
+  padding-top: 160px;
+  text-align: left;
+}
+
+.boton input {
+  border: solid 2px rgb(29, 28, 28);
+  border-radius: 3px;
+  box-shadow: 10px rgb(31, 28, 28);
+  padding-left: 15px;
+  height: 30px;
+  width: 100px;
+}
+
+.boton input::placeholder {
+  color: black;
+}
+
+.boton input:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.08);
+  transition: 0.6s ease-out;
+  filter: grayscale(0.6);
+}
+
+.contacto {
+  background-color: rgb(53, 51, 51);
+  height: 100px;
+  display: flex;
+  flex: 1 1 50%;
+  padding: 40px 80px;
+  gap: 70px;
+  text-align: center;
+}
+
+.contacto div {
+  width: 100%;
+}
